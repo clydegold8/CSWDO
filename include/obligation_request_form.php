@@ -16,7 +16,7 @@
 
 </script>
 
-<section class="large-12 medium-12 columns">
+<section class="large-12 medium-12 columns outer_container">
 					<hr/>
 					<form data-abide method="POST" name="myForm" action="include/obligation.php">
 						<section class="row">

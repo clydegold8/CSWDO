@@ -1,0 +1,57 @@
+/* custom borders */
+.topborder {border-top: 1px solid #000000;}
+.rightborder {border-right: 1px solid #000000;}
+.bottomborder {border-bottom: 1px solid #000000;}
+.leftborder {border-left: 1px solid #000000;}
+
+
+/* custom widths */
+.large-1mod {width: 9.33333%;}
+.large-2mod {width: 16.66667%;}
+.large-3mod {width: 25%;}
+.large-4mod {width: 33.33333%;}
+.large-5mod {width: 41.66667%;}
+.large-6mod {width: 50%;}
+.large-7mod {width: 58.33333%;}
+.large-8mod {width: 66.66667%;}
+.large-9mod {width: 75%;}
+.large-10mod {width: 83.33333%;}
+.large-11mod {width: 91.66667%;}
+.large-12mod {width: 100%;}
+
+
+/* custom margins */
+.spacer1{margin:0 auto;}
+.spacer2{margin:0 auto;}
+.spacer3{margin:0 auto;}
+.spacer4{margin:0 auto;}
+.spacer5{margin:0 auto;}
+.spacer6{margin:0 auto;}
+.spacer7{margin:0 auto;}
+.spacer8{margin:0 auto;}
+.spacer9{margin:0 auto;}
+.spacer10{margin:0 auto;}
+.spacer11{margin:0 auto;}
+.spacer11{margin:0 auto;}
+
+
+/* section widths */
+.section10{width: 10%;}
+.section15{width: 15%;}
+.section20{width: 20%;}
+.section25{width: 25%;}
+.section30{width: 30%;}
+.section35{width: 35%;}
+.section40{width: 40%;}
+.section45{width: 45%;}
+.section50{width: 50%;}
+.section55{width: 55%;}
+.section60{width: 60%;}
+.section65{width: 65%;}
+.section70{width: 70%;}
+.section75{width: 75%;}
+.section80{width: 80%;}
+.section85{width: 85%;}
+.section90{width: 90%;}
+.section95{width: 95%;}
+.section100{width: 100%;}
