@@ -156,7 +156,7 @@
 							<section class="large-12 medium-12 columns">
 								<section class="large-12 medium-12 columns">
 									<label>Amount</label>
-									<input class="bold" type="text" name="amount" required="integer" placeholder="Amount"/>
+									<input class="bold" type="integer" name="amount" required placeholder="Amount"/>
 									<small class="error">Amount in Figures</small>
 								</section>
 							</section>
