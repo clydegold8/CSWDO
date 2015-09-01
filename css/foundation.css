@@ -124,7 +124,7 @@ select {
   margin-right: auto;
   margin-top: 0;
   margin-bottom: 0;
-  max-width: 62.5rem; }
+  max-width: 100%; /*max-width: 62.5rem;*/ }
   .row:before, .row:after {
     content: " ";
     display: table; }
@@ -139,8 +139,8 @@ select {
     margin-right: 0; }
   .row .row {
     width: auto;
-    margin-left: -0.9375rem;
-    margin-right: -0.9375rem;
+    margin-left: 5.0625rem;
+    margin-right: 5.0625rem;
     margin-top: 0;
     margin-bottom: 0;
     max-width: none; }

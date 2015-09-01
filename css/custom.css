@@ -189,6 +189,10 @@ h1, h2, h3, h4, h5, h6{
 .large-11edit {width: 90.66667%; /*width: 91.66667%*/}
 .large-12edit {width: 100%; }
 
+.outer_container{
+    margin-left: 10px;
+}
+
 #title_republic{font-weight: normal;}
 #title_city{}
 .title_document{text-transform: uppercase; font-size: 26pt;}
