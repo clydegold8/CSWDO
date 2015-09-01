@@ -11,7 +11,7 @@
 		<!-- nka cdn ni brad need ug internet arun mu gawas para ni sa icon na aku gi gamit -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 		<script src="js/jquery-2.1.4.min.js"></script>
-		<script src="js/foundation.tab.js"></script>
+		<script src="js/main.js"></script>
 		<script src="js/vendor/modernizr.js"></script>
 	</head>
 
