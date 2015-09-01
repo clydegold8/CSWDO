@@ -1,4 +1,4 @@
-<section class="large-10 medium-10 columns">
+<section class="large-12 medium-12 columns">
 					<hr/>
 					<form data-abide method="POST" action="include/purchase.php">
 						<section class="row">

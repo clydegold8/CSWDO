@@ -1,0 +1,34 @@
+/*html structure*/
+html,
+body {
+   margin:0;
+   padding:0;
+   height:100%;
+}
+#container {
+   min-height:100%;
+   position:relative;
+}
+#body {
+   padding:10px;
+   padding-bottom:60px;   /* Height of the footer */
+}
+#footer {
+   position:absolute;
+   bottom:0;
+   width:100%;
+   height:60px;   /* Height of the footer */
+   background:#333333;
+}
+/*further styles*/
+.label-bx{
+	margin-left: 5px;
+}
+.app-name{
+    font-size: 23px;
+}
+.contributors,.app-name,.sub-txt{
+	position: relative;
+    top: 5px;
+	color: #fff;
+}

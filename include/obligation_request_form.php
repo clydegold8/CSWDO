@@ -16,7 +16,7 @@
 
 </script>
 
-<section class="large-10 medium-10 columns">
+<section class="large-12 medium-12 columns">
 					<hr/>
 					<form data-abide method="POST" name="myForm" action="include/obligation.php">
 						<section class="row">
@@ -51,8 +51,8 @@
 						<section class="row">
 							<section class="large-12 medium-12 columns">
 								<label>Select Particulars</label>
-	<!-- A -->					<input type="radio" onclick="javascript:particularsCheck();" id="wagesCheck" name="particulars"><label class="bold" for="wages">Wages</label>
-	<!-- B -->					<input type="radio" onclick="javascript:particularsCheck();" id="reimbursementCheck"  name="particulars"><label class="bold" for="reimbursement">Reimbursement</label>
+								<input type="radio" onclick="javascript:particularsCheck();" id="wagesCheck" name="particulars"/><label class="bold" for="wages">Wages</label>
+								<input type="radio" onclick="javascript:particularsCheck();" id="reimbursementCheck"  name="particulars"/><label class="bold" for="reimbursement">Reimbursement</label>
 								<small class="error">Select Particulars</small>
 							</section>
 						</section>
@@ -166,4 +166,4 @@
 							<?php include 'review_btn.php' ?>
 						</center>
 					</form>
-				</section>
+</section>
