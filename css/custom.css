@@ -193,6 +193,10 @@ h1, h2, h3, h4, h5, h6{
     margin-left: 10px;
 }
 
+#disbursement_voucher, #purchase_request{
+  padding-bottom: 110px;
+}
+
 #title_republic{font-weight: normal;}
 #title_city{}
 .title_document{text-transform: uppercase; font-size: 26pt;}

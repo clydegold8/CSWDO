@@ -10,8 +10,8 @@ body {
    position:relative;
 }
 #body {
-   padding:10px;
-   padding-bottom:60px;   /* Height of the footer */
+   padding: 0px; /*padding:10px; original styling*/
+   padding-bottom: 60px;   /* Height of the footer */
 }
 #footer {
    position:absolute;

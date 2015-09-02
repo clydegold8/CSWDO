@@ -3271,7 +3271,7 @@ meta.foundation-mq-topbar {
 
 .tabs-content {
   background-color: #EFEFEF;
-  margin-bottom: 1.5rem;
+  margin-bottom: 0rem; /*margin-bottom: 1.5rem;*/
   width: 100%; }
   .tabs-content:before, .tabs-content:after {
     content: " ";
