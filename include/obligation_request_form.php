@@ -1,6 +1,7 @@
 <section class="large-12 medium-12 columns outer_container">
 	<hr/>
-	<form data-abide method="POST" name="myForm" action="include/obligation.php">
+	<form data-abide method="POST" name="myForm" action="/include/print/printfile.php">
+		<input type="hidden" name="request-type" value="obligation">
 		<section class="row">
 			<section class="large-12 medium-12 columns">
 				<input type="text" class="bold txt" name="head_value" value="OBLIGATION REQUEST" disabled />
@@ -51,8 +52,8 @@
 			<section class="large-6 medium-6 columns">
 				<section class="large-12 medium-12 columns">
 					<label>Charges for Wages</label>
-					<select class="bold" type="text" name="Charges" id="wageCharge" required/>
-						<option>&nbsp;</option>
+					<select class="bold" type="text" name="WCharges" id="wageCharge" required/>
+						<option value=" ">&nbsp;</option>
 						<option value="Support to 4P's Mayors Office - MOOE 4P's">4P's</option>
 						<option value="General Fund - Other Services">Admin</option>
 						<option value="Support to BUB Program">BUB</option>
@@ -73,10 +74,10 @@
 				<section class="large-12 medium-12 columns">
 					<label>Signatory 1</label>
 					<select class="bold" type="text" name="signatory1" required="Alpha"/>
-						<option>&nbsp;</option>
+						<option value=" ">&nbsp;</option>
 						<option value="Letecia M. Yu, RSW">Letecia M. Yu</option>
 						<option value="Librado C. Navarro">Librado Navarro</option>
-						<option value="">Engr. Jovino Requina</option>
+						<option value="Engr. Jovino Requina">Engr. Jovino Requina</option>
 					</select>
 					<small class="error">Select Signatory</small>
 				</section>
@@ -94,10 +95,10 @@
 				<section class="large-12 medium-12 columns">
 					<label>Signatory 2</label>
 					<select class="bold" type="text" name="signatory2" required="Alpha"/>
-						<option>&nbsp;</option>
+						<option value=" ">&nbsp;</option>
 						<option value="Letecia M. Yu, RSW">Letecia M. Yu</option>
 						<option value="Librado C. Navarro">Librado Navarro</option>
-						<option value="">Engr. Jovino Requina</option>
+						<option value="Engr. Jovino Requina">Engr. Jovino Requina</option>
 					</select>
 				</section>
 			</section>
@@ -106,8 +107,8 @@
 		<section class="row" id="ifReimbursement" style="display:none">
 			<section class="large-6 medium-6 columns">
 				<label>Charges for Reimbursement(s)</label>
-				<select class="bold" type="text" name="Charges" id="wageCharge" required/>
-					<option>&nbsp;</option>
+				<select class="bold" type="text" name="RCharges" id="wageCharge" required/>
+					<option value=" ">&nbsp;</option>
 					<option value="Support to 4P's Mayors Office - MOOE 4P's">4P's</option>
 					<option value="General Fund - Other Services">Admin</option>
 					<option value="Support to BUB Program">BUB</option>
@@ -126,10 +127,10 @@
 			<section class="large-6 medium-6 columns">
 				<label>Signatory</label>
 				<select class="bold" type="text" name="signatory3" required="Alpha"/>
-					<option>&nbsp;</option>
+					<option value=" ">&nbsp;</option>
 					<option value="Letecia M. Yu, RSW">Letecia M. Yu</option>
 					<option value="Librado C. Navarro">Librado Navarro</option>
-					<option value="">Engr. Jovino Requina</option>
+					<option value="Engr. Jovino Requina">Engr. Jovino Requina</option>
 				</select>
 			</section>
 		</section>

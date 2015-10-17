@@ -1,6 +1,7 @@
 <section class="large-12 medium-12 columns">
 	<hr/>
-	<form data-abide method="POST" action="include/disbursement.php">
+	<form data-abide method="POST" action="/include/print/printfile.php">
+		<input type="hidden" name="request-type" value="disbursement">
 		<section class="row">
 			<section class="large-12 medium-12 columns">
 				<input type="text" class="bold txt" name="head_value" value="DISBURSEMENT VOUCHER" disabled />
